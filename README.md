@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/navi112299/Leetcode/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/navi112299/Leetcode/tree/master/0011-container-with-most-water) |
 | [0049-group-anagrams](https://github.com/navi112299/Leetcode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/navi112299/Leetcode/tree/master/0217-contains-duplicate) |
 ## Hash Table
@@ -30,6 +31,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/navi112299/Leetcode/tree/master/0011-container-with-most-water) |
 | [0125-valid-palindrome](https://github.com/navi112299/Leetcode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/navi112299/Leetcode/tree/master/0344-reverse-string) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/navi112299/Leetcode/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
