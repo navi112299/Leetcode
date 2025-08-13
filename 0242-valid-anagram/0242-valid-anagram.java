@@ -1,17 +1,30 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
-        if(s.length() != t.length()) return false;
-        int[] alphabetsArray = new int[26];
-        for(int i=0; i<s.length(); i++){
-            alphabetsArray[s.charAt(i) - 'a']++;
-            alphabetsArray[t.charAt(i) - 'a']--;
-        }    
-        for(int i : alphabetsArray){
-            if(i != 0){
+        if(s.length()!=t.length()){
+            return false;
+        }
+        Map<Character,Integer> table = new HashMap<>();
+        for(char c:s.toCharArray()){
+            if(table.containsKey(c)){
+                table.put(c,table.get(c)+1);
+            }
+            else{
+                table.put(c,1);
+            }
+        }
+        for(char c:t.toCharArray()){
+            if(table.containsKey(c)){
+                table.put(c,table.get(c)-1);
+            }
+            else{
+                return false;
+            }
+        }
+        for(int count:table.values()){
+            if(count!=0){
                 return false;
             }
         }
         return true;
-        
     }
 }
